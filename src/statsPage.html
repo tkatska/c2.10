@@ -1,0 +1,36 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Preview stats</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" style="margin:10px">
+      <button class="btn btn-primary" type="button" onclick="getStats()"> Get Stats </button>
+    </div>
+    <div class="row">
+      <div class="col progress" style="margin:10px">
+        <div class="progress-bar progress-bar-striped progress-bar-animated progress-barCats" role="progressbar"
+          style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col progress" style="margin:10px">
+        <div class="progress-bar progress-bar-striped progress-bar-animated progress-barDogs" role="progressbar"
+          style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col progress" style="margin:10px">
+        <div class="progress-bar progress-bar-striped progress-bar-animated progress-barParrots" role="progressbar"
+          style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/getStats.js" charset="utf-8"></script>
+</body>
